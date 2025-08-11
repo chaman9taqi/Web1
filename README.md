@@ -1,41 +1,4 @@
-Certainly! Below is a comprehensive example of a simple yet functional web application with the following features:
 
-1. **Home Page**: Displays videos.
-2. **About Page**.
-3. **Contact Us Page**.
-4. **Video Gallery**: Videos are shown on the home page.
-5. **Upload Videos**: Users can upload videos (requires login).
-6. **Login/Logout Functionality**.
-   
-### Technologies Used
-- **Frontend**: HTML, CSS, JavaScript.
-- **Backend**: Python with Flask (for simplicity and demonstration).
-- **Storage**: Videos stored in a local `uploads` directory.
-- **User Authentication**: Basic session-based login system.
-  
----
-
-## Complete Example
-
-### 1. Directory Structure
-```
-video_site/
-│
-├── app.py
-├── templates/
-│   ├── index.html
-│   ├── about.html
-│   ├── contact.html
-│   ├── login.html
-│   ├── register.html
-│
-├── static/
-│   ├── style.css
-│
-└── uploads/  (Folder to store uploaded videos)
-```
-
----
 
 ### 2. `app.py` (Backend Logic)
 ```python
